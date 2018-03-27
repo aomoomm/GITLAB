@@ -6,27 +6,16 @@ void main()
   int N = 10;
   int i, won;
 
-<<<<<<< HEAD
   int YourLotteryNo;
 
-  printf("Hello Kitty!");
-  printf("Hello 2");
+  printf("Hello Kitty2");
+  printf("Hello1");
   printf("Enter your Lottery Number (0 to end): ");
   scanf("%d", &YourLotteryNo);
   while (YourLotteryNo != 0)
   {
     won = 0;
     for (i=0;i<N && !won; i++)
-=======
-  printf("Hello Kitty!");
-  printf("Hello 2");
-  printf("Enter your Lottery Number (0 to end): ");
-  scanf("%d", &YourLotteryNo);
-  while (YourLotteryNo != 0)
-  {
-    won = 0;
-    for (i=0;i<N && !won; i++)
->>>>>>> 98ecf44d9bb405deb5e823709a83b505995f34a5
     {
        if (YourLotteryNo == WinLotteryNo[i])
        {
